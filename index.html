@@ -4,50 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Neonderthaw&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--Css Stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <title>ivancito</title>
+    <!--Script-->
+    <script src="./app.js" defer></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Neonderthaw&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+
+    <title>Iván Ezequiel Morales - Front End Developer</title>
+
 </head>
 <body>
+    
+    <nav class="menu"> 
+        <label class="logo">i</label>
+    <!--boton menu-->
+    <input type="checkbox" id="nerd_menu">
+    <label for="nerd_menu" class="lbl_menu">
+        <div class="contenedor">       
+            <span class="btn_menu" id="spn1"></span>
+            <span class="btn_menu" id="spn2"></span>
+            <span class="btn_menu" id="spn3"></span>
+        </div> 
+    </label>
+    <!-- End boton menu-->
+        <ul class="nav__lu">
+            <li class="nav__li"><a href="#">about me</a></li>
+            <li class="nav__li"><a href="#">Portfolio</a></li>
+            <li class="nav__li"><a href="#">Skillset</a></li>
+            <li class="nav__li"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <div id="particles-js"></div>
-    <div class="firstContainer">
-        <header class="header">
-            <a href="#"></a>
-            <p>i</p>
-            <a href="#"></a>
-        </header>
-        <section class="hero principalPanel">
-            <div class="welcome">
-                <h1>
-                    Hola! Mi nombre es<br>
-                    <strong>Iván Ezequiel Morales</strong><br>
-                    <strong>Frontend Developer</strong><br>
-                    Soy un programador apasionado.</h1>
+    <section class="hero principalPanel">
+        <div class="welcome">
+            <h1>
+                Hola! Mi nombre es<br>
+                <strong>Iván Ezequiel Morales</strong><br>
+                <strong>Frontend Developer</strong><br>
+                Soy un programador apasionado.</h1>
+        </div>
+        <div class="webTech">
+            <p> Tecnologias con las que trabajo:</p>
+            <div class="iconsContainer">
+                <p><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"/>  HTML5</p>
+                <p><img src="https://img.icons8.com/color/48/000000/css3.png"/>CSS3</p>
+                <p><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>JavaScript</p>
+                <p><img src="https://img.icons8.com/color/48/000000/git.png"/>Git</p>
+                <p><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/>GitHub</p>
+                <p><img src="https://img.icons8.com/color/48/000000/angularjs.png"/>Angular</p>
+                <p><img src="https://img.icons8.com/color/48/000000/nodejs.png"/>Node.js</p>
+                <p><img src="https://img.icons8.com/color/48/000000/python--v1.png"/>Python</p>
+                <p><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>C++</p>
+                <p><img src="https://img.icons8.com/color/48/000000/tensorflow.png"/>Tensorflow</p>
             </div>
-            <div class="webTech">
-                <p> Tecnologias con las que trabajo:</p>
-                <div class="iconsContainer">
-                    <p><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png"/>  HTML5</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/css3.png"/>CSS3</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>JavaScript</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/git.png"/>Git</p>
-                    <p><img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/>GitHub</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/angularjs.png"/>Angular</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/nodejs.png"/>Node.js</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/python--v1.png"/>Python</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>C++</p>
-                    <p><img src="https://img.icons8.com/color/48/000000/tensorflow.png"/>Tensorflow</p>
-                </div>
-            </div>
-        </section>
-        <section id="portfolio" class="portfolio"></section>
-        <section id="contact" class="contactForm"></section>
-        <footer class="footer"></footer>
-    </div>
+        </div>
+    </section>
+    <section class="s2"></section>
+    <section class="s3"></section>
     <!--js particles.js-->
-    <script src="js/particles.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
